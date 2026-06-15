@@ -1,4 +1,4 @@
-3# redocly-testing
+# redocly-testing
 jnkjkj
 qsadsadas
-3asd
+asd
