@@ -32,29 +32,144 @@ tags:
 
 paths:
   /_health:
-    $ref: ./paths/health/health.yaml
+    get:
+      tags:
+        - health
+      summary: Health check
+      description: Returns the health status of the service.
+      responses:
+        '200':
+          description: OK
   /_api/cors:
-    $ref: ./paths/cors-proxy/cors-proxy.yaml
+    get:
+      tags:
+        - Cors proxy
+      summary: CORS proxy
+      description: Internal cors proxy operation.
+      responses:
+        '200':
+          description: OK
   /_api/cors/{targetUrl}:
-    $ref: ./paths/cors-proxy/cors-proxy-target.yaml
+    get:
+      tags:
+        - Cors proxy
+      summary: CORS proxy with target URL
+      description: Internal cors proxy operation with target URL.
+      parameters:
+        - name: targetUrl
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
   /catalog-entities:
-    $ref: ./paths/catalog-entities/catalog-entities.yaml
+    get:
+      tags:
+        - Entities
+      summary: List catalog entities
+      description: Returns a list of catalog entities.
+      responses:
+        '200':
+          description: OK
   /catalog-entities/{catalogEntityId}:
-    $ref: ./paths/catalog-entities/catalog-entity.yaml
+    get:
+      tags:
+        - Entities
+      summary: Get catalog entity
+      description: Returns a single catalog entity by ID.
+      parameters:
+        - name: catalogEntityId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
   /bff/catalog-entities:
-    $ref: ./paths/bff/catalog-entities/catalog-entities.yaml
+    get:
+      tags:
+        - BFF Entities
+      summary: List BFF catalog entities
+      description: Returns a list of catalog entities for the frontend.
+      responses:
+        '200':
+          description: OK
   /bff/catalog-entities/{catalogEntityKey}:
-    $ref: ./paths/bff/catalog-entities/catalog-entity.yaml
+    get:
+      tags:
+        - BFF Entities
+      summary: Get BFF catalog entity
+      description: Returns a single catalog entity for the frontend by key.
+      parameters:
+        - name: catalogEntityKey
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
   /bff/catalog-related-entities/{catalogEntityKey}:
-    $ref: ./paths/bff/catalog-related-entities/catalog-related-entities.yaml
+    get:
+      tags:
+        - BFF Entities
+      summary: List related catalog entities
+      description: Returns related catalog entities for a given entity key.
+      parameters:
+        - name: catalogEntityKey
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
   /bff/catalog-revisions/{catalogEntityKey}:
-    $ref: ./paths/bff/catalog-revisions/catalog-revisions.yaml
+    get:
+      tags:
+        - BFF Entities
+      summary: List catalog revisions
+      description: Returns revisions for a given catalog entity key.
+      parameters:
+        - name: catalogEntityKey
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
   /catalog-entities-relations:
-    $ref: ./paths/catalog-entities-relations/catalog-entities-relations.yaml
+    get:
+      tags:
+        - Entity relations
+      summary: List catalog entities relations
+      description: Returns a list of catalog entities relations.
+      responses:
+        '200':
+          description: OK
   /catalog-entities-relations/{catalogEntityRelationId}:
-    $ref: ./paths/catalog-entities-relations/catalog-entity-relation.yaml
+    get:
+      tags:
+        - Entity relations
+      summary: Get catalog entity relation
+      description: Returns a single catalog entity relation by ID.
+      parameters:
+        - name: catalogEntityRelationId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
 
 components:
   securitySchemes:
     ApiKey:
-      $ref: ./security/ApiKey.yaml
+      type: apiKey
+      name: X-API-Key
+      in: header
