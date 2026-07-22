@@ -1,0 +1,6 @@
+get:
+  tags:
+    - Entity Relations
+  responses:
+    '200':
+      description: OK

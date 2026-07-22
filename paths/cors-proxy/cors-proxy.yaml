@@ -1,0 +1,6 @@
+get:
+  tags:
+    - Cors Proxy
+  responses:
+    '200':
+      description: OK

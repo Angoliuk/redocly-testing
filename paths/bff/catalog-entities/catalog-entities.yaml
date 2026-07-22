@@ -1,0 +1,6 @@
+get:
+  tags:
+    - BFF Entities
+  responses:
+    '200':
+      description: OK
