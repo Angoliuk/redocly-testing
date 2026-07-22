@@ -19,15 +19,15 @@ security:
   - ApiKey: []
 
 tags:
-  - name: health
+  - name: Health
     description: Health check operations.
-  - name: Cors proxy
+  - name: Cors Proxy
     description: Internal cors proxy operations.
   - name: Entities
     description: Catalog entities operations.
   - name: BFF Entities
     description: Catalog entities for frontend operations.
-  - name: Entity relations
+  - name: Entity Relations
     description: Catalog entities relations operations.
 
 paths:
