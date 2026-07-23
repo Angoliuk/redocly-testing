@@ -1,3 +1,0 @@
-# redocly-testing
-jnkjkj
-.,knkl
