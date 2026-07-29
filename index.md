@@ -2,4 +2,4 @@ Hello, world!
 
 Getting ready to create docs!
 
-That's just a tmplate.
+That's just a template.
