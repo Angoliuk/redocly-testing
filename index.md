@@ -1,5 +1,6 @@
-Hello, world!
+# Welcome
 
-Getting ready to create docs!
+Welcome to the documentation portal.
+This site provides comprehensive guides and API references to help you integrate with our services.
 
-That's just a tmplate.
+This is a template for your documentation project.
