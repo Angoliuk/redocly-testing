@@ -47,9 +47,5 @@ properties:
       - string
       - 'null'
 required:
-  - id
   - name
   - price
-  - createdAt
-  - updatedAt
-  - object
