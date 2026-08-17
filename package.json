@@ -3,22 +3,23 @@
   "private": true,
   "scripts": {
     "start": "realm develop",
-    "build": "realm build"
+    "build": "realm build",
+    "lint": "realm lint"
   },
   "dependencies": {
-"@redocly/config": "0.0.0-20260817102929",
-"@redocly/realm-asyncapi-sdk": "0.0.0-20260817102929",
-"@redocly/theme": "0.0.0-20260817102929",
-"@redocly/redoc-opentelemetry": "0.0.0-20260817102929",
-"@redocly/replay": "0.0.0-20260817102929",
-"@redocly/openapi-docs": "0.0.0-20260817102929",
-"@redocly/allof-merge": "0.0.0-20260817102929",
-"@redocly/api-docs": "0.0.0-20260817102929",
-"@redocly/asyncapi-docs": "0.0.0-20260817102929",
-"@redocly/graphql-docs": "0.0.0-20260817102929",
-"@redocly/portal-legacy-ui": "0.0.0-20260817102929",
-"@redocly/mock-server": "0.0.0-20260817102929",
-"@redocly/portal-plugin-mock-server": "0.0.0-20260817102929",
-"@redocly/realm": "0.0.0-20260817102929"
+    "@redocly/config": "0.0.0-20260817102929",
+    "@redocly/realm-asyncapi-sdk": "0.0.0-20260817102929",
+    "@redocly/theme": "0.0.0-20260817102929",
+    "@redocly/redoc-opentelemetry": "0.0.0-20260817102929",
+    "@redocly/replay": "0.0.0-20260817102929",
+    "@redocly/openapi-docs": "0.0.0-20260817102929",
+    "@redocly/allof-merge": "0.0.0-20260817102929",
+    "@redocly/api-docs": "0.0.0-20260817102929",
+    "@redocly/asyncapi-docs": "0.0.0-20260817102929",
+    "@redocly/graphql-docs": "0.0.0-20260817102929",
+    "@redocly/portal-legacy-ui": "0.0.0-20260817102929",
+    "@redocly/mock-server": "0.0.0-20260817102929",
+    "@redocly/portal-plugin-mock-server": "0.0.0-20260817102929",
+    "@redocly/realm": "0.0.0-20260817102929"
   }
 }
