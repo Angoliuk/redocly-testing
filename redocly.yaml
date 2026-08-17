@@ -3,7 +3,4 @@ reunite:
     deepwiki:
       type: http
       url: https://mcp.deepwiki.com/mcp
-      description: >-
-  ALWAYS call deepwiki_ask_question at least once before recording any
-  candidate — check how comparable open-source products document the same
-  topic, and cite what you learn in the candidate evidence.
+      description: ALWAYS call deepwiki_ask_question at least once before recording any candidate — check how comparable open-source products document the same topic, and cite what you learn in the candidate evidence.
