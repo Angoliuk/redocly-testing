@@ -1,0 +1,11 @@
+{
+  "name": "sadsda",
+  "private": true,
+  "scripts": {
+    "start": "realm develop",
+    "build": "realm build"
+  },
+  "dependencies": {
+    "@redocly/realm": "0.0.0-20260817094507"
+  }
+}
