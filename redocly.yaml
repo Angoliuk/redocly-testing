@@ -1,0 +1,6 @@
+reunite:
+  mcpServers:
+    deepwiki:
+      type: http
+      url: https://mcp.deepwiki.com/mcp
+      description: Documentation knowledge base for public GitHub repositories. Always use ask_question to research how comparable open-source products document similar features when collecting documentation improvement candidates.
