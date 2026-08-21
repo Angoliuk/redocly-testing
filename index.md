@@ -6,7 +6,7 @@ Everything you need to integrate with our platform and build amazing application
 
 New here?
 Check out our [Getting started](docs/getting-started.md) guide to learn the basics and make your first API call.
-
+sfd 
 ## API references
 
 We support multiple API formats to suit your development needs:
