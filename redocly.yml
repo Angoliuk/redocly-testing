@@ -1,0 +1,3 @@
+mockServer:
+  # TODO: verify behaviour with product team
+  enabled: true
