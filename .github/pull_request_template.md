@@ -14,3 +14,4 @@
 
 - [ ] Docs build passes
 - [ ] Content reviewed
+- [ ] Linting passes
