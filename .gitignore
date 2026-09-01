@@ -1,1 +1,27 @@
 /docs2
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Bun
+bun.lockb
+
+# Build artifacts
+dist/
+.redocly/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
